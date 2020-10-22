@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MapChoosingActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/NavigationBarColor">
+
+        <ImageView
+            android:id="@+id/head_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_back_white"/>
+
+        <TextView
+            android:id="@+id/head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp"/>
+
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/confirm_modification"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:text="确认"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmapView_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+
+        <ImageView
+            android:id="@+id/marker_image"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/location_on_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/current"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:padding="3dp"
+            android:text="当前地点"
+            android:layout_above="@+id/marker_image"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/locateBtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/main_map_button_bg"
+            android:src="@drawable/ft_loc_normal" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

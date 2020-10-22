@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#000000</color>
+    <!--状态栏颜色-->
+    <color name="NavigationBarColor">#6c94f4</color>
+    <color name="write">#ffffff</color>
+    <color name="txtlog">#90b7f4</color>
+    <color name="fengexian">#e6e6e6</color>
+    <color name="white">#fefefe</color>
+    <color name="windowBGColor">#F5F5F5</color>
+    <color name="txtGrayColor">#9E9E9E</color>
+    <color name="txtBuleColor">#4585F2</color>
+    <!--仿IOS底部跳窗设置的颜色-->
+    <color name="blue">#5b98ea</color>
+    <color name="text_lightgrey">#b0b0b0</color>
+    <color name="gray">#dddddd</color>
+    <color name="textColorHint">#A0A0A0</color>
+    <color name="textColor">#202020</color>
+
+    <color name="textRed">#FF0000</color>
+    <color name="long_but">#6c94f4</color>
+
+</resources>

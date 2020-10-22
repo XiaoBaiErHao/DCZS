@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/heading_styles_layout_back"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="姓名" />
+
+            <EditText
+                android:background="@null"
+                android:id="@+id/alarm_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/txtGrayColor"
+                android:hint="请输入姓名" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="@color/fengexian"
+            android:minHeight="1px"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="联系电话" />
+
+            <EditText
+                android:background="@null"
+                android:id="@+id/alarm_call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/txtGrayColor"
+                android:hint="请输入联系电话" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="@color/fengexian"
+            android:minHeight="1px"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="QQ" />
+
+            <EditText
+                android:background="@null"
+                android:id="@+id/alarm_qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/txtGrayColor"
+                android:hint="请输入QQ号码" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="@color/fengexian"
+            android:minHeight="1px"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="建议内容" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/event_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txtGrayColor"
+            android:layout_marginTop="5dp"
+            android:background="#dfe6e4"
+            android:gravity="top"
+            android:hint="请填写建议内容"
+            android:minLines="9"
+            android:padding="6dp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="20dp">
+
+            <Button
+                android:id="@+id/subscribely"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/NavigationBarColor"
+                android:text="提交"
+                android:textColor="@color/write" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

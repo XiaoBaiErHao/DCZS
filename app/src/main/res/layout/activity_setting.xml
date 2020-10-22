@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/heading_styles_layout_back"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/write"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/guan_yu_wo_men"/>
+
+        <TextView
+            android:id="@+id/tv_setting_alytermima"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:text="修改登录密码"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/xiang_you_jian_tou"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/write"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/xiugai_mima"/>
+
+        <TextView
+            android:id="@+id/tv_setting_grxx"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:text="修改个人信息"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/xiang_you_jian_tou"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wipe_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/write"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/ic_cache"/>
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:text="清除缓存"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lout_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/write"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/gai_ge_ren_xin_xi"/>
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:text="退出"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
